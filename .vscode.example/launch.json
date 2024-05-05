@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "C",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/client_x86_64",
+            "preLaunchTask": "Make",
+            "args": [
+                "username"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
